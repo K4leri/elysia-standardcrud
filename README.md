@@ -19,4 +19,4 @@ docker-compose up
 use http://localhost:3000/swagger with your browser to see DOCS
 
 
-I add JWT just for more practise and convinient usage of user id from them. Also its easy to add some admin operations.
+I add JWT just for more practise and convinient usage of user id from them. Also its easy to add some admin (admin here is role that is contains inside JWT) operations.
