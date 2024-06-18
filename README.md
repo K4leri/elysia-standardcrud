@@ -5,6 +5,10 @@ To install all reps use
 ```bash
 bun i
 ```
+To create docker network that allows containers to communicate
+```bash
+docker network create --driver bridge mynetwork
+```
 
 To start your server u can use:
 ```bash
