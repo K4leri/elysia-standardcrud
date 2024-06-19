@@ -69,7 +69,7 @@ export const users = new Elysia()
                     'surname': t.String({ maxLength: 30 }),
                     'phone': t.String({maxLength: 20})
                 }),
-                detail: usersShemaSwagger,
+                detail: usersShemaSecureSwagger,
                 response: {
                     202: response202users,
                     500: errorResponse500
